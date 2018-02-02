@@ -15,7 +15,7 @@ knit_hooks$set(webgl = hook_webgl)
 library(misc3d)
 ```
 
-```{r, webgl=TRUE}
+```{r, webgl=TRUE, echo = FALSE}
 record_pair <- readRDS("./data/record_pair.rds")
 
 pair_select <-  (p.adjust(1-ppois(record_pair - 1, 1), method = "BH") < 0.05) * 1
