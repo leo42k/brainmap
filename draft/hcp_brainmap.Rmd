@@ -31,4 +31,5 @@ points3d(unique(record_line)[,1],unique(record_line)[,2], unique(record_line)[,3
          color = "blue", size = 10)
 }
 rglwidget(elementId = "brainmap")
+
 ```
